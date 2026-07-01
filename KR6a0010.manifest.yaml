@@ -1,0 +1,81 @@
+canonical_identifier: bkk:krp/KR6a0010/v1
+canonical_location: https://kanripo.org/bkk/KR6a0010/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 白衣金幢二婆羅門緣起經
+  identifiers:
+    alt_id:
+    - T01n0010
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T01/T01n0010.xml
+    old_id: T01n0010
+  edition:
+    short: bkk
+editions:
+- short: 明
+  label: 明
+  source_xml_id: wit1
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 宋
+  label: 宋
+  source_xml_id: wit3
+- short: 元
+  label: 元
+  source_xml_id: wit4
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0010_000.yaml, hash: 'sha256:bd19c4a8baed8dddc3787536e8e895e6371aa9a3e1498f7058d7c6f701d38b3a'}
+  - {seq: 1, filename: KR6a0010_001.yaml, hash: 'sha256:665c476d4e2c3a6a79e11225cb2d9eb481df0a6226ebfc6ae653e0a2f6b6764f'}
+  - {seq: 2, filename: KR6a0010_002.yaml, hash: 'sha256:1350e757496f265f260f0453b75b8e6482131ddf66f349518231693235ed92f3'}
+  - {seq: 3, filename: KR6a0010_003.yaml, hash: 'sha256:0787b3dd44804c3c4253daec5aa62441c5da9b31f678facf914f743bc78575f1'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6a0010_001.markers.yaml, hash: 'sha256:686294f1633e0abaa7fa3a906a113e55324ac907ad28af5f0c1afc923649eb7d'}
+  - {seq: 2, role: markers, filename: assets/KR6a0010_002.markers.yaml, hash: 'sha256:956bf4294b1ae79b60d0be80223e197ae3bd84645e9e7c1d7b77edcd74a46c31'}
+  - {seq: 3, role: markers, filename: assets/KR6a0010_003.markers.yaml, hash: 'sha256:19974c51c80af45a8ce6f1269d582c23bc1b73c704753fc32b6262b5fcd6e7fd'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6a0010_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 2622
+  label: '佛說白衣金幢二婆羅門緣起經
+
+    卷上'
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6a0010_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 2444
+  label: '佛說白衣金幢二婆羅門緣起經
+
+    卷中'
+  type: juan
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR6a0010_T_003-juan-start
+    span:
+    - body
+    - 0
+    - 2475
+  label: '佛說白衣金幢二婆羅門緣起經
+
+    卷下'
+  type: juan
+  level: 1
+hash: sha256:17083c6435efb40373bb44b696c6d13bf2191c10b764e5a1b41e40b67f6106e1
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
