@@ -31,13 +31,14 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6a0010_000.yaml, hash: 'sha256:bd19c4a8baed8dddc3787536e8e895e6371aa9a3e1498f7058d7c6f701d38b3a'}
-  - {seq: 1, filename: KR6a0010_001.yaml, hash: 'sha256:665c476d4e2c3a6a79e11225cb2d9eb481df0a6226ebfc6ae653e0a2f6b6764f'}
-  - {seq: 2, filename: KR6a0010_002.yaml, hash: 'sha256:1350e757496f265f260f0453b75b8e6482131ddf66f349518231693235ed92f3'}
-  - {seq: 3, filename: KR6a0010_003.yaml, hash: 'sha256:0787b3dd44804c3c4253daec5aa62441c5da9b31f678facf914f743bc78575f1'}
+  - {seq: 1, filename: KR6a0010_001.yaml, hash: 'sha256:cf3ce69c9cfd64f552e9d13b820c6382c347c94a5ee94b9045b5ab681cbc8344'}
+  - {seq: 2, filename: KR6a0010_002.yaml, hash: 'sha256:298072af06246067a256e4d4cf4984e94b85a03e775f21f823b9a43f429f8e9a'}
+  - {seq: 3, filename: KR6a0010_003.yaml, hash: 'sha256:e8aeb0d879130c7af795aeeaf5a9de0ef156c16fe8083fd6ca7361d9cfd4f351'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6a0010_001.markers.yaml, hash: 'sha256:686294f1633e0abaa7fa3a906a113e55324ac907ad28af5f0c1afc923649eb7d'}
-  - {seq: 2, role: markers, filename: assets/KR6a0010_002.markers.yaml, hash: 'sha256:956bf4294b1ae79b60d0be80223e197ae3bd84645e9e7c1d7b77edcd74a46c31'}
-  - {seq: 3, role: markers, filename: assets/KR6a0010_003.markers.yaml, hash: 'sha256:19974c51c80af45a8ce6f1269d582c23bc1b73c704753fc32b6262b5fcd6e7fd'}
+  - {seq: 0, role: markers, filename: assets/KR6a0010_000.markers.yaml, hash: 'sha256:6483c6213bcf1ee32172dcc40bf7c86fcf8c90bee0d7ba90cb7b57ec93f19ce3'}
+  - {seq: 1, role: markers, filename: assets/KR6a0010_001.markers.yaml, hash: 'sha256:e37d3600f7e03c700a016fc8ccdfc86f1c6caa07c875ee76f529134095cc1380'}
+  - {seq: 2, role: markers, filename: assets/KR6a0010_002.markers.yaml, hash: 'sha256:68a8210e0359bc31e356e95d5957ba2a306f742a8801e47920f0f9cd1366f836'}
+  - {seq: 3, role: markers, filename: assets/KR6a0010_003.markers.yaml, hash: 'sha256:647ef2035b5d69447e150633f7a7470c1e70ce0434b62ba2fef641f98e7e4deb'}
 table_of_contents:
 - ref:
     seq: 1
@@ -75,7 +76,4 @@ table_of_contents:
     卷下'
   type: juan
   level: 1
-hash: sha256:17083c6435efb40373bb44b696c6d13bf2191c10b764e5a1b41e40b67f6106e1
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:bf4cad2a513abdb106bc9c350255d11c80cb750c477f844579d48a5ae7fe1a9b
